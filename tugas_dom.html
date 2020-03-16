@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas DOM</title>
+</head>
+<body>
+	<h1>Form perhitungan matematika</h1>
+	<hr/>
+	Pilih Perhitungan :
+	<select id="opsiPerhitungan" name="opsiPerhitungan">
+		<option value="Luas Bola">Luas Bola</option>
+		<option value="Volume Bola">Volume Bola</option>
+		<option value="Luas Tabung">Luas Permukaan Tabung</option>
+		<option value="Volume Tabung">Volume Tabung</option>
+	</select>
+	<br/><br/>
+	Jari-jari (r) = <input type="text" name="jari" value="0">
+	<br/><br/>
+	Tinggi (t) = <input type="text" name="tinggi" value="0">
+	<br/><br/>
+	<button type="submit">Hitung</button>
+	<hr/>
+	<div id="hasilHitung">
+		<span id="judul_hitung">Luas Bola</span> = <span id="hasil_perhitungan">0</span>
+	</div>
+	<hr/>
+	<p>
+		<b><u>Petunjuk : </u></b> <br/>
+		Buatlah perhitungan matematika dinamis sehingga outputnya sesuai inputan, contoh : <br/>
+		- Volume Bola : 50,13 <br/>
+		- Luas Bola : 14
+	</p>
+	<p>
+		Rumus Luas Bola : 4 . π . r²
+	</p>
+	<p>
+		Rumus Volume Bola : 4/3 . π . r³
+	</p>
+	<p>
+		Rumus Luas Permukaan Tabung : 2 . π . r . ( t + r )
+	</p>
+	<p>
+		Rumus Luas Tabung : π . r² . t
+	</p>
+	<p>
+		π = 3,14
+	</p>
+	<hr/>
+	<script type="text/javascript" src="tugas.js"></script>
+</body>
+</html>
